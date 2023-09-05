@@ -1,0 +1,330 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body
+{
+  font-family: sans-serif;
+}
+#nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+}
+.navbar
+{
+  background-image: linear-gradient(to right, #262769, #e0c33d);
+}
+.navbar-brand img
+{
+   height: 50px;
+   padding-left: 20px;
+}
+.navbar-nav li
+{
+   padding: 0 10px;
+   color: white;
+}
+.navbar-nav li a 
+{
+   color:black; 
+   font-weight: 600;
+   float: left;
+   text-align: left;
+   
+}
+
+
+.navbar-toggler
+{
+   outline: none;
+}
+
+/*---------------------banner section--------------------->*/
+
+#banner
+{
+  color: black ;
+  padding-top: 5%;
+}
+.center {
+  text-align: center;
+  
+}
+
+
+.code-img
+{
+  height: 300px ;
+  
+}
+.background{
+  
+  padding-top: 70px;
+  padding-bottom: 80px;
+  height: 651px;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.flex-item {
+  min-width: 50%;
+  min-height: 30%;
+}
+
+
+.heading
+{
+  font-size: 30px ;
+  font-weight: 500;
+
+  font-size: 40px !important;
+  font-family: sans-serif;
+  color: rgb(36, 3, 78) !important;
+}
+.promo-title
+{
+  padding: 50px;
+  padding-bottom: 40px;
+  font-family: cursive;
+  font-size: 18px;
+}
+
+/* button css */
+.pushable {
+  background: rgb(194, 165, 3);
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin: auto;
+}
+
+.front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: #ffc404;
+  color: rgb(14, 8, 88);
+  transform: translateY(-6px);
+}
+/* here signin form */
+
+
+
+body {
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #040780;
+  color: white;
+  padding: 14px 20px;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+
+
+.text-white {
+  color: white !important;
+}
+
+
+#our_locations
+{
+  padding: 80px;
+
+}
+
+.location_img
+{
+   width: 100px;
+   margin-top: 20px;
+}
+
+.our_locations
+{
+  padding: 20px;
+
+}
+
+.our_locations h4
+{
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.title_loc::before
+{
+   content: '';
+   background: #040780;
+   height: 5px;
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   transform: translateY(63px);
+}
+
+.title_loc::after
+{
+   content: '';
+   background: #040780;
+   height: 10px;
+   width: 5%;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   transform: translateY(8px);
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(37, 36, 36, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #e6d817;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #1d0b69;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+#Pricing
+{
+  padding: 80px;
+
+}
+
+
+.card1:hover {
+  background-color: #f1f36d;
+}
+
+.card1:hover .list-group-item{
+  background:#00ffb6 !important
+}
+
+
+
+
+
+.card2:hover {
+  background-color:#956df3;
+}
+
+.card2:hover .list-group-item{
+  background:#00C9FF !important
+}
+
+
+.card3:hover {  
+   background-color:#d46df3;
+}
+
+.card3:hover .list-group-item{
+  background:#ff95e9 !important
+}
+
+
+.card .btn-outline-dark{
+  color:white;
+  background:#212529;
+}
+
+.textwidget{
+  font-size: larger;
+}
+
+
+
+
+
+
+
+

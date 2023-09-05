@@ -1,0 +1,62 @@
+{% extends 'app/base.html' %}
+{% load static %}
+
+{% block OurLocations %}
+
+<style>
+  .map-container-3{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  padding-left: 110px;
+}
+.map-container-3 iframe{
+  left:0;
+  top:0;
+  height: auto;
+  width: auto;
+  position:absolute;
+  padding-left: 110px;
+}
+</style>
+
+
+<!--Google map-->
+
+
+<section id="our_locations">
+   <div class="col-lg-9 vh-100">
+     <div class="container text-center">
+      <h1 class="title_loc">Our Locations</h1>
+      <div class="row">
+        <div class="col-md-6 our_locations">
+          <div id="map-container-google-3" class="z-depth-1-half map-container-3">
+            <iframe src="https://maps.google.com/maps?q=punjab&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="1"
+              style="border:0" allowfullscreen></iframe>
+          </div>
+          <h4> Punjab</h4>
+          <p> Join Us, join Our Panjab And also earn with us, A great platform for you to
+           generate a passive income by enjoying game of football and enjoying your favorite player in PanjabFA</p>
+        </div>
+
+        <div class="col-md-6 our_locations">
+          <div id="map-container-google-3" class="z-depth-1-half map-container-3">
+            <iframe src="https://maps.google.com/maps?q=birmingham&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+              style="border:0" allowfullscreen></iframe>
+          </div>
+          <h4> Birmingham</h4>
+          <p> Join Us, join Our Panjab And also earn with us, A great platform for you to
+            generate a passive income by enjoying game of football and enjoying your favorite player in PanjabFA</p>
+
+
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+{% endblock %}

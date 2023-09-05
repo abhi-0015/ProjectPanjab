@@ -1,0 +1,67 @@
+{% extends 'app/base.html' %}
+{% load static %}
+
+{% block WomensTeam %}
+
+<link rel="stylesheet" href="{% static 'css/WomensTeam.css' %}">
+<body>
+    <!-- Header -->
+ 
+    <div class="container">
+        <h1 class="fw-light text-black text-center">Meet the PanjabFA Team</h1>
+      </div>
+    
+    <!-- Page Content -->
+  
+       <!------------------ Hover Effect Style : Demo - 6 --------------->
+       <div class="container mt-40">
+        <h3 class="text-center">Our Womens Team</h3>
+        <div class="row mt-30">
+            <div class="col-md-4 col-sm-6">
+                <div class="box6">
+                    <img class="pic-1" src="https://www.w3schools.com/bootstrap4/img_avatar5.png">
+                    <div class="box-content">
+                        <h3 class="title">Gurmeet Kaur</h3>
+                        <span class="post">Captain</span>
+                        <ul class="icon">
+                            <li><a href="#" class="fa fa-search"></a></li>
+                            <li><a href="#" class="fa fa-link"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="box6">
+                    <img class="pic-1" src="https://www.w3schools.com/bootstrap4/img_avatar4.png">
+                    <div class="box-content">
+                        <h3 class="title">Mandeep Kaur</h3>
+                        <span class="post">All Rounder</span>
+                        <ul class="icon">
+                            <li><a href="#" class="fa fa-search"></a></li>
+                            <li><a href="#" class="fa fa-link"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="box6">
+                    <img class="pic-1" src="https://www.w3schools.com/bootstrap4/img_avatar4.png">
+                    <div class="box-content">
+                        <h3 class="title">Rupinder Kaur</h3>
+                        <span class="post">Goal Keeper</span>
+                        <ul class="icon">
+                             <!-- Instagram -->
+                             <li> <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa fa-instagram"
+                               aria-hidden="true"></i></a></li>
+                            <li> <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa fa-facebook-square"
+              aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+</body>
+
+{% endblock %}
