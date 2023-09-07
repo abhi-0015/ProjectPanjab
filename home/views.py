@@ -21,3 +21,6 @@ def OurLocations(request):
 
 def ContactUs(request):
     return render(request,"app/ContactUs.html")
+
+def login_view(request):
+    return render (request,"app/login.html")
